@@ -1,0 +1,55 @@
+<html>
+    <head></head>
+    <body>
+        
+        <form action="http://neeistam.com">
+            <label for="d1">Your First  Name </label> 
+            <input value="hina" type="text" id="d1" placeholder="Enter Your First Name" name="firstname">
+            <br>
+            <label for="ln">Enter your last name</label>
+            <input type="text" id="ln" name="lastname">
+            <br>
+            <label for="pwd">Enter your Password</label>
+            <input type="password" id="pwd" name="password" required pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{8,}$">
+            <br>
+            <label for="rpwd">ReEnter your Password</label>
+            <input type="password" id="rpwd">
+            <br>
+            <label for="em">Enter your Email</label>
+            <input type="email" id="em" name="email">
+            <br>
+            <label for="mob">Enter your Mobile</label>
+            <input type="number" id="mob" name="mobile">
+            <br>
+            <label for="addr">Enter your Address</label>
+            <textarea name="address"></textarea>
+            <br>
+            <label for="addr">Select your Gender</label>
+            <input type="radio" name="gen" value="m">:Male
+            <input type="radio" name="gen" value="f">:Female
+            <input type="radio" name="gen" value="o">:Others
+            <br>
+            <label for="hob">Select your Hobbies</label>
+            <input type="checkbox" name="hob" value="cri">:Cricket
+            <input type="checkbox" name="hob" value="mov">:Movies
+            <input type="checkbox" name="hob" value="mus">:Music
+            <input type="checkbox" name="hob" value="sco">:Stamp Collection
+            <br>
+            <label for="dob">Select your DOB</label>
+            <input type="date" name="bob">
+            <br>
+            <label for="hob">Select your Country</label>
+            <select name="" id="" name="country">
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">Germany</option>
+            </select>
+            <br>
+            <label for="hob">Upload your pic</label>
+            <input type="file" name="dp">
+            <br>
+            <button>Save My Data</button>
+            <button>Reset Data</button>
+        </form>
+    </body>
+</html>

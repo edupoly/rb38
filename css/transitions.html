@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            #d1:hover{
+                color:red;
+                transition: 2s;
+            }
+            #dd{
+                width:200px;
+                height:200px;
+                border:20px solid green;
+                border-radius: 50%;
+                position: relative;
+            }
+            #dd:hover{
+                background-color: red;
+                transition:2s;
+            }
+            #dd:hover div{
+                font-size: 40px;
+                transition: 2s;
+            }
+            #dd div{
+                font-size: 0px;
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="d1">Welcome to Transitions</h1>
+        <i>India</i>
+        <div id="dd">
+            <div>Edupoly</div>
+        </div>
+    </body>
+</html>
